@@ -12,9 +12,16 @@ repositories {
 dependencies {
 
     testImplementation (
-            "org.junit.jupiter:junit-jupiter:5.11.3",
+            'org.junit.jupiter:junit-jupiter:5.11.3',
             'com.codeborne:selenide:7.7.3',
-            "org.slf4j:slf4j-simple:2.0.16"
+            'org.slf4j:slf4j-simple:2.0.16',
+            'org.assertj:assertj-core:3.24.2',
+            'com.opencsv:opencsv:5.8',
+            'com.codeborne:pdf-test:1.5.0',
+            'com.codeborne:xls-test:1.4.3',
+            'com.fasterxml.jackson.core:jackson-databind:2.16.0',
+            'com.fasterxml.jackson.core:jackson-core:2.13.1',
+            'com.fasterxml.jackson.core:jackson-annotations:2.16.0'
     )
 }
 
